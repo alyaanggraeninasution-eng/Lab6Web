@@ -1,0 +1,80 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    background-color: #f4f7fb;
+}
+
+h1 {
+    color: #173f75;
+}
+
+p {
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 16px;
+    background-color: #3478c8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.highlight {
+    color: #173f75;
+    background-color: #e6f1ff;
+    border-left: 4px solid #3478c8;
+    padding: 12px;
+}
+
+.teks-besar {
+    font-size: 1.4rem;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+.selesai span {
+    text-decoration: line-through;
+    color: #687386;
+}
+
+#workshop {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #d5dce5;
+}
+
+#workshop label {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+
+#workshop input,
+#workshop select {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    border: 1px solid #b8c2d1;
+    border-radius: 5px;
+}
+
+#workshop button {
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+#pesanWorkshop {
+    font-weight: bold;
+}
+
+.sembunyi {
+    display: none;
+}

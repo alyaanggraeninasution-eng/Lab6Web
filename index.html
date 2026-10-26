@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum DOM dan Event</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1 id="judul">Latihan DOM</h1>
+    <p id="pesan">Belum ada tindakan.</p>
+    <button id="tombolAksi" type="button">Klik Saya</button>
+<hr>
+    <h2>Latihan 3: Mengubah Gaya</h2>
+    <p id="teksGaya">Ini adalah teks yang akan diubah gayanya.</p>
+    <button id="tombolGaya" type="button">Ubah Gaya</button>
+<hr>
+    <h2>Latihan 4: Penghitung Karakter</h2>
+    <label for="namaInput">Nama:</label>
+    <input type="text" id="namaInput" maxlength="40">
+    <p>Jumlah karakter: <span id="jumlahKarakter">0</span></p>
+
+<hr>
+
+<h2>Latihan 5: Form Pendaftaran</h2>
+
+<form id="formPendaftaran" novalidate>
+    <label for="nama">Nama lengkap</label>
+    <input id="nama" name="nama" type="text">
+    <br><br>
+
+    <label for="email">Email</label>
+    <input id="email" name="email" type="email">
+    <br><br>
+
+    <label for="usia">Usia</label>
+    <input id="usia" name="usia" type="number" min="17" max="100">
+    <br><br>
+
+    <button type="submit">Daftar</button>
+</form>
+
+<p id="pesanForm" aria-live="polite"></p>
+
+<hr>
+
+<section>
+    <h2>Latihan 6: Daftar Tugas</h2>
+
+    <label for="inputTugas">Tugas baru</label>
+    <input id="inputTugas" type="text">
+
+    <button id="tambahTugas" type="button">Tambah</button>
+
+    <p id="pesanTugas" aria-live="polite"></p>
+
+    <ul id="daftarTugas"></ul>
+</section>
+
+#mini project form pendaftaran
+
+<hr>
+
+<section id="workshop">
+    <h2>Form Pendaftaran Workshop</h2>
+    <p>Silakan isi formulir pendaftaran berikut.</p>
+
+    <form id="formWorkshop" novalidate>
+        <label for="namaWorkshop">Nama lengkap</label>
+        <input type="text" id="namaWorkshop" maxlength="40">
+        <p>Jumlah karakter: <span id="hitungNama">0</span></p>
+
+        <label for="emailWorkshop">Email</label>
+        <input type="email" id="emailWorkshop">
+
+        <label for="sesiWorkshop">Pilih sesi workshop</label>
+        <select id="sesiWorkshop">
+            <option value="">-- Pilih sesi --</option>
+            <option value="Pagi">Sesi Pagi</option>
+            <option value="Siang">Sesi Siang</option>
+            <option value="Sore">Sesi Sore</option>
+        </select>
+
+        <p id="ringkasanSesi">Sesi belum dipilih.</p>
+
+        <button type="submit">Daftar Workshop</button>
+        <button type="reset">Reset Form</button>
+    </form>
+
+    <p id="pesanWorkshop" aria-live="polite"></p>
+</section>
+<hr>
+    <h2>Eksperimen 4: Tampil dan Sembunyi Teks</h2>
+    <p id="teksToggle">Ini adalah paragraf yang bisa disembunyikan.</p>
+    <button id="tombolToggle" type="button">
+    Sembunyikan Teks
+</button>
+
+</body>
+</html>
